@@ -2,17 +2,17 @@
 {
     font-family: Arial, Helvetica, sans-serif;
     width: 300px;
-    height: 450px;
     margin: 20px 50px;
     display: inline-block;
     border: 1px solid #afa7a7;
+    vertical-align: top;
 }
 
 .cat-box img
 {
     width: 300px;
     height: 200px;
-    transition: all .3s;
+    transition: transform .3s;
 }
 
 .cat-box:hover
@@ -39,7 +39,6 @@
 {
     font-size: 1.5em;
     font-style: inherit;
-    color: #504949;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -47,9 +46,10 @@
 .cat-note a
 {
     text-decoration: none;
+    color: #504949;
 }
 
-.cat-note a > h3:hover
+.cat-note a:hover
 {
     color: #343a79;
 }
